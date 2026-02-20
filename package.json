@@ -1,0 +1,35 @@
+{
+  "name": "jwtself",
+  "version": "1.0.1",
+  "description": "Generate a random token that does absolutely nothing.",
+  "main": "index.js",
+  "exports": {
+    ".": {
+      "require": "./index.js",
+      "import": "./index.mjs"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.mjs"
+  ],
+  "scripts": {
+    "test": "node -e \"const { generateToken } = require('./index.js'); console.log(generateToken());\""
+  },
+  "keywords": [
+    "jwt",
+    "token",
+    "random",
+    "useless",
+    "jwtself"
+  ],
+  "author": "nathanreul",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "jwtself": "^1.0.0"
+  }
+}
