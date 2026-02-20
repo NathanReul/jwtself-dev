@@ -9,10 +9,6 @@
       "import": "./index.mjs"
     }
   },
-  "files": [
-    "index.js",
-    "index.mjs"
-  ],
   "scripts": {
     "test": "node -e \"const { generateToken } = require('./index.js'); console.log(generateToken());\""
   },
