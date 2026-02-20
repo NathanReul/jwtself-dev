@@ -1,6 +1,6 @@
 {
   "name": "jwtself",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generate a random token that does absolutely nothing.",
   "main": "index.js",
   "exports": {
